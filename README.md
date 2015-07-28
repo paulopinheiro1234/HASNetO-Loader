@@ -1,7 +1,7 @@
 # hasneto-loader
 Human-Aware Sensor Network Ontology's template parser and loader.
 
-Usage: hasnetoloader [options] -u username -p password -k knowldgeBaseURL[-i inputXLS]
+Usage: ./loader.sh [options] -u username -p password -k knowldgeBaseURL[-i inputXLS]
        -i inputXLS: generate ttl and load it into knowledge base;
                     inputXLS parsing warnings and errors are printed as they
                     are identified, if any
